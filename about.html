@@ -3,34 +3,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/about.css">
     <title>about To do</title>
 </head>
 <body>
     <header>
-        <nav>
-            <img src="https://g-tech.com.tr/wp-content/uploads/2016/12/envato-logo-small.svg" style="width:25px;" alt="">
-            <a href="./index.html">Go Back home</a>
+        <nav >
+            <div>
+                <img src="./images/logo.png" alt="to do logo">
+            </div>
+            <div>
+                <a href="">Tasks</a>
+                <a href="#contact__me">Get in contact</a>
+            </div>
+            </div>
         </nav>
     </header>
-   <section>
-    <h2>My info</h2>
-    <h5>Mohamad Abdeen</h5>
-    <p>Software engineer at LTUC studying fullstack development </p>
-    <img src="./images/me.jpg" style="height: 200px;" alt="">
-   </section>
-
-   <section>
-    <form action="">
+    <section class="my__info">
         <div>
-            <label for="username">Username</label>
-            <input type="text">
+            <img src="./images/me.jpg" alt="">
         </div>
-        <div>
-            <label for="email">Email</label>
-            <input type="email">
+        <div class="bio__cont">
+            <h2>Mohamad Abdeen</h2>
+            <p>I'm A Computer Science Graduate With a proven ability to collaborate effectively, I
+                specialize in Front-End Development and I'm willing to dedicate my full time and effort
+                to excel in my profession.
+            </p>
         </div>
-        <button type="submit">Submit</button>
-    </form>
-   </section>
+    </section>
+  <div class="contact__me " id="contact__me">
+    <h1>Contact Me</h1>
+    <div>
+        <label for="username">Username</label>
+        <input type="text">
+    </div>
+    <div>
+        <label for="username">Email</label>
+        <input type="email">
+    </div>
+    <div>
+        <label for="username">Phone Number</label>
+        <input type="number">
+    </div>
+    <div>
+        <label for="username">Phone Number</label>
+       <textarea name="" id="" cols="30" rows=""></textarea>
+    </div>
+    <button type="submit">Get in Contact</button>
+  </div>
+    <footer>
+        <h2>All rights Reserved for Mohamad Abdeen &copy;</h2>
+    </footer>
 </body>
 </html>

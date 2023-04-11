@@ -1,6 +1,8 @@
 let userName =prompt("Please Enter Your Name");
 let userGender=prompt("Please Enter Your Gender (Male || Female)");
 let userAge=prompt("Please Enter Your Age");
+if(userAge<0) alert("your age can't be less than zero");
+userAge=prompt("Please Enter Your Age");
 let wantSkip=confirm("Want To Skip The Welcoming message?");
 userGender=userGender.toLowerCase();
 if(!wantSkip){

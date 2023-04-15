@@ -6,13 +6,13 @@ function printAnswers(arr){
 let userName =prompt("Please Enter Your Name");
 let userGender=prompt("Please Enter Your Gender (Male || Female)");
 let userAge=prompt("Please Enter Your Age");
-while(userAge<0){
+while(userAge<=0){
     alert("your age can't be less than zero");
     userAge=prompt("Please Enter Your Age");
 }
 
-let isUnderAge=prompt("are you over 18?");
-if(isUnderAge==="") isUnderAge="invalid";
+let isJordanian=prompt("are you over jordanian?");
+if(isJordanian==="") isUnderAge="invalid";
 let isAthletic=prompt("do you play any type of sports?");
 if(isAthletic==="") isAthletic="invalid"
 let isMuslim=prompt("are you a muslim?");
